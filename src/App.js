@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeqVmSjPD1q1vOj_E8uVROfvE_jWZCV9cmW1nzEuAZkF3Hy8w/viewform?embedded=true"
+        width="100%"
+        height="1200"
+        frameBorder="0"
+        marginHeight="0"
+        marginWidth="0"
+        title="Client Intake Form"
+      >
+        Loading…
+      </iframe>
     </div>
   );
 }
