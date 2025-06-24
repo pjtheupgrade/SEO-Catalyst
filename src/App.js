@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
   <Route path="/" element={<Home />} />
-  <Route path="/intake" element={<Intake />} />
+<Route path="/intake" element={<Intake />} />
 </Routes>
 
     </Router>
